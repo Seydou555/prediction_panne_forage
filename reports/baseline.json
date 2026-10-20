@@ -1,0 +1,25 @@
+{
+  "taux_panne_test": 0.36333333333333334,
+  "dummy_majoritaire": {
+    "cv_pr_auc_moy": 0.3625,
+    "cv_pr_auc_std": 0.0,
+    "test": {
+      "pr_auc": 0.36333333333333334,
+      "roc_auc": 0.5,
+      "rappel": 0.0,
+      "precision": 0.0,
+      "f2": 0.0
+    }
+  },
+  "regression_logistique": {
+    "cv_pr_auc_moy": 0.6540932167529118,
+    "cv_pr_auc_std": 0.027464795828666833,
+    "test": {
+      "pr_auc": 0.6055855333641145,
+      "roc_auc": 0.7510207022431432,
+      "rappel": 0.6788990825688074,
+      "precision": 0.5584905660377358,
+      "f2": 0.6508355321020228
+    }
+  }
+}
