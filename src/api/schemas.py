@@ -1,0 +1,1 @@
+# validation Pydantic des entrées

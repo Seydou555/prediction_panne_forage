@@ -1,2 +1,21 @@
-.idea
-.venv
+# Environnement
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Artefacts générés (reproductibles par script)
+mlruns/
+mlartifacts/
+models/
+*.joblib
+
+# Données intermédiaires (régénérées par les scripts)
+data/processed/
+
+# Divers
+.env
+.DS_Store
+.vscode/
+.idea/
