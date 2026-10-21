@@ -4,8 +4,8 @@ Service estimant le risque de panne de chaque forage dans les 90 jours,
 pour planifier les visites préventives.
 
 ## Données
-- `data/raw/forages_historique.csv` : 3 000 forages, cible `panne_90j`
-- `data/raw/forages_nouveau_mois.csv` : 600 forages, mois récent simulé
+- `data/forages_historique.csv` : 3 000 forages, cible `panne_90j`
+- `data/forages_nouveau_mois.csv` : 600 forages, mois récent simulé
 
 ## Installation
     python -m venv .venv
@@ -14,8 +14,8 @@ pour planifier les visites préventives.
 
 ## Étapes
 - [x] Initialisation du dépôt
-- [ ] Exploration des données
-- [ ] Entraînement tracé (MLflow)
+- [X] Exploration des données
+- [X] Entraînement tracé (MLflow)
 - [ ] API (FastAPI)
 - [ ] Tests (pytest)
 - [ ] Conteneurisation (Docker)

@@ -1,0 +1,51 @@
+{
+  "critere": "PR-AUC CV max ; \u00e0 moins de 0.01 pr\u00e8s, mod\u00e8le le plus simple",
+  "choix": "logreg_C1",
+  "seuil": 0.21,
+  "comparaison": [
+    {
+      "modele": "logreg_C1",
+      "cv_pr_auc": 0.654,
+      "cv_pr_auc_std": 0.027,
+      "seuil": 0.21,
+      "cv_f2": 0.762,
+      "test_pr_auc": 0.606,
+      "test_rappel": 0.968,
+      "test_precision": 0.421,
+      "test_f2": 0.768
+    },
+    {
+      "modele": "logreg_C0.1",
+      "cv_pr_auc": 0.654,
+      "cv_pr_auc_std": 0.027,
+      "seuil": 0.22,
+      "cv_f2": 0.762,
+      "test_pr_auc": 0.607,
+      "test_rappel": 0.968,
+      "test_precision": 0.422,
+      "test_f2": 0.769
+    },
+    {
+      "modele": "random_forest",
+      "cv_pr_auc": 0.626,
+      "cv_pr_auc_std": 0.032,
+      "seuil": 0.31,
+      "cv_f2": 0.752,
+      "test_pr_auc": 0.591,
+      "test_rappel": 0.94,
+      "test_precision": 0.427,
+      "test_f2": 0.758
+    },
+    {
+      "modele": "hist_gradient_boosting",
+      "cv_pr_auc": 0.603,
+      "cv_pr_auc_std": 0.026,
+      "seuil": 0.15,
+      "cv_f2": 0.747,
+      "test_pr_auc": 0.569,
+      "test_rappel": 0.954,
+      "test_precision": 0.401,
+      "test_f2": 0.748
+    }
+  ]
+}
