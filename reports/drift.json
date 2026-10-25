@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-25T17:29:30.192072+00:00",
+  "modele": "logreg_C1",
+  "seuil": 0.21,
+  "derive_donnees": [
+    {
+      "variable": "age_ans",
+      "psi": 0.0188,
+      "ks_stat": 0.0283,
+      "ks_pvalue": 0.8098,
+      "hors_plage_%": 0.0,
+      "niveau": "stable"
+    },
+    {
+      "variable": "profondeur_m",
+      "psi": 0.0189,
+      "ks_stat": 0.0383,
+      "ks_pvalue": 0.4473,
+      "hors_plage_%": 0.0,
+      "niveau": "stable"
+    },
+    {
+      "variable": "debit_m3h",
+      "psi": 0.0148,
+      "ks_stat": 0.045,
+      "ks_pvalue": 0.2582,
+      "hors_plage_%": 0.0,
+      "niveau": "stable"
+    },
+    {
+      "variable": "usagers_jour",
+      "psi": 0.4032,
+      "ks_stat": 0.2603,
+      "ks_pvalue": 0.0,
+      "hors_plage_%": 26.0,
+      "niveau": "forte"
+    },
+    {
+      "variable": "jours_depuis_maintenance",
+      "psi": 0.0222,
+      "ks_stat": 0.0337,
+      "ks_pvalue": 0.6143,
+      "hors_plage_%": 0.0,
+      "niveau": "stable"
+    },
+    {
+      "variable": "pannes_12m",
+      "psi": 0.1104,
+      "ks_stat": 0.132,
+      "ks_pvalue": 0.0,
+      "hors_plage_%": 0.3333,
+      "niveau": "moderee"
+    },
+    {
+      "variable": "type_pompe",
+      "psi": 0.0058,
+      "ks_stat": NaN,
+      "ks_pvalue": NaN,
+      "hors_plage_%": NaN,
+      "niveau": "stable"
+    },
+    {
+      "variable": "region",
+      "psi": 0.0068,
+      "ks_stat": NaN,
+      "ks_pvalue": NaN,
+      "hors_plage_%": NaN,
+      "niveau": "stable"
+    }
+  ],
+  "production": {
+    "taux_alerte_reference": 0.835,
+    "taux_alerte_nouveau_mois": 0.9233333333333333,
+    "proba_moyenne_reference": 0.46874872409095225,
+    "proba_moyenne_nouveau_mois": 0.5606873032358302,
+    "taux_panne_reel_nouveau_mois": 0.44666666666666666,
+    "reference": {
+      "pr_auc": 0.6055855333641145,
+      "roc_auc": 0.7510207022431432,
+      "rappel": 0.9678899082568807,
+      "precision": 0.42115768463073855,
+      "f2": 0.7683903860160233
+    },
+    "nouveau_mois": {
+      "pr_auc": 0.7385861071091139,
+      "roc_auc": 0.7800642869987413,
+      "rappel": 0.9850746268656716,
+      "precision": 0.47653429602888087,
+      "f2": 0.8118081180811808
+    }
+  },
+  "decision": {
+    "reentrainer": true,
+    "raisons": [
+      "d\u00e9rive forte sur usagers_jour (PSI 0.40)"
+    ]
+  }
+}
