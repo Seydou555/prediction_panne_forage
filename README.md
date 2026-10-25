@@ -16,8 +16,8 @@ pour planifier les visites préventives.
 - [x] Initialisation du dépôt
 - [X] Exploration des données
 - [X] Entraînement tracé (MLflow)
-- [ ] API (FastAPI)
+- [X] API (FastAPI)
 - [ ] Tests (pytest)
-- [ ] Conteneurisation (Docker)
+- [X] Conteneurisation (Docker)
 - [ ] CI (GitHub Actions)
 - [ ] Monitoring et ré-entraînement
