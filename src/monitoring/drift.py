@@ -33,7 +33,7 @@ from sklearn.model_selection import StratifiedKFold, cross_val_predict, train_te
 
 from src.baseline import metriques, split
 from src.config import (
-    CAT_FEATURES, FEATURES, HIST_PATH, NEW_PATH, NUM_FEATURES, RANDOM_STATE,
+    FEATURES, HIST_PATH, NEW_PATH, NUM_FEATURES, RANDOM_STATE,
     REPORTS, TARGET,
 )
 from src.entrainement import (

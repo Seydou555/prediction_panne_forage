@@ -15,7 +15,7 @@ from sklearn.metrics import average_precision_score
 
 from src.baseline import metriques, preprocessor, split
 from src.config import (
-    CAT_FEATURES, FEATURES, HIST_PATH, NEW_PATH, NUM_FEATURES, ROOT, TARGET,
+    FEATURES, HIST_PATH, NEW_PATH, NUM_FEATURES, ROOT, TARGET,
 )
 from src.entrainement import PRECISION_MIN, choisir_seuil, selectionner
 
